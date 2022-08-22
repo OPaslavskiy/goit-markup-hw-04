@@ -298,9 +298,12 @@ img {
   margin-bottom: 0;
 }
 
+/* ==========Наша команда========== */
+
 .team-section {
   background-color: #f5f4fa;
 }
+
 .team .item {
   width: calc((100% - 90px) / 4);
   margin-left: 15px;
@@ -325,7 +328,47 @@ img {
   line-height: 1.18;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
+  margin-bottom: 16px;
+}
+
+.social-media {
+  fill: var(--clien-icon);
+}
+
+.team-link {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.team-link ul {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 10px;
+  /* text-align: center;
+  align-items: center; */
+}
+
+.team-link li {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.team-link a {
+  margin-left: auto;
+  margin-right: auto;
+  height: 20px;
+}
+
+.team-link li:hover,
+.team-link li:focus,
+.team-link li:hover .social-media,
+.team-link li:focus .social-media {
+  background-color: var(--accent-color);
+  fill: #fff;
 }
 
 /* ==========Клієнти========== */
@@ -407,7 +450,7 @@ img {
   color: var(--accent-color);
 }
 
-/* portfolio-- */
+/* ====================portfolio==================== */
 
 .portfolio-btn {
   font-family: inherit;
@@ -425,17 +468,20 @@ img {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
 }
 
 .portfolio-btn:focus {
   color: #fff;
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .all-btn {
   color: #fff;
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-titel {
