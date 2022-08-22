@@ -112,6 +112,14 @@ img {
 .contact-header li:first-child {
   margin-right: 50px;
 }
+.contact-header a {
+  display: flex;
+  align-items: center;
+}
+
+.contact-header svg {
+  margin-right: 10px;
+}
 
 /* logo */
 .logo {
