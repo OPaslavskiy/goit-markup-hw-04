@@ -230,13 +230,19 @@ img {
   margin-left: 15px;
 }
 
+.benefits-icon {
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px;
+}
+
 .benefits .item:last-child {
   margin-right: 0;
 }
 
 .benefits-titel {
   margin-bottom: 10px;
-  margin-top: 25px;
+  margin-top: 30px;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
