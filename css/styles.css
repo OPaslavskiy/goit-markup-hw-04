@@ -117,8 +117,20 @@ img {
   align-items: center;
 }
 
-.contact-header svg {
+.icon-mail,
+.icon-tel {
   margin-right: 10px;
+  fill: var(--text-color);
+}
+
+.mail:hover .icon-mail,
+.mail:focus .icon-mail {
+  fill: var(--accent-color);
+}
+
+.tel:hover .icon-tel,
+.tel:focus .icon-tel {
+  fill: var(--accent-color);
 }
 
 /* logo */
