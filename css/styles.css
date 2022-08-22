@@ -3,6 +3,7 @@
   --titel-color: #212121;
   --text-color: #757575;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --clien-icon: rgba(175, 177, 184, 1);
 }
 
 html {
@@ -327,6 +328,34 @@ img {
   padding-bottom: 30px;
 }
 
+/* ==========Клієнти========== */
+
+.client {
+  display: flex;
+  gap: 30px;
+}
+
+.client-icon {
+  border: 1px solid var(--clien-icon);
+  border-radius: 4px;
+  padding: 16px 32px;
+}
+
+.client svg {
+  fill: var(--clien-icon);
+}
+
+.client-icon:hover,
+.client-icon:focus {
+  border-color: var(--accent-color);
+}
+
+.client-icon:hover .company-icon,
+.client-icon:focus .company-icon {
+  fill: var(--accent-color);
+}
+
+/* ==========Футер========== */
 .address {
   font-style: normal;
   line-height: 1.71;
