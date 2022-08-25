@@ -423,6 +423,7 @@ img {
 
 .footer-adress {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-logo,
@@ -470,7 +471,6 @@ img {
 
 .join {
   margin-left: 70px;
-  padding-bottom: 40px;
 }
 
 .join-text {
